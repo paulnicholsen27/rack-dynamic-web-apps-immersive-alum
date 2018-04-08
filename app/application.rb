@@ -7,7 +7,7 @@ class Application
     num3 = get_random
     resp.write "#{num1} #{num2} #{num3}"
     resp.write "\n"
-    message = win?(num1, num2, num3) ? "You win" : "You lose"
+    message = win?(num1, num2, num3) ? "You Win" : "You Lose"
 	resp.write message
     resp.finish
   end
